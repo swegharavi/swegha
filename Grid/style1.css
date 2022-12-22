@@ -1,0 +1,111 @@
+body{
+    margin: auto 0;
+}
+
+.zone {
+    /* padding:30px 50px;
+    margin:40px 60px; */
+    cursor:pointer;
+    /* display:inline-block; */
+    color:#FFF;
+    font-size:2em;
+    border-radius:4px;
+    border:1px solid #bbb;
+    transition: all 0.3s linear;
+}
+
+.zone:hover {
+    -webkit-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -moz-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -o-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+}
+
+/* navigation */
+.main-nav{
+    display: flex;
+    list-style: none;
+    font-size: 0.7em;
+    margin: 0;
+}
+
+@media only screen and (max-width: 600px) {
+    .main-nav{
+        font-size: 0.5em;
+        padding: 0;
+    }
+}
+
+.container{
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center;  */
+    height: 50vh; 
+    /* width: 100vh; */
+}
+
+.cover{
+    width: 100%;
+}
+
+/* Grids Image */
+.grid-wrapper{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+}
+
+.image{
+    height: 300px;
+    width: 250px;
+}
+.box > img{
+    width: 100%;
+}
+
+.box{
+    background-color: rgb(rgb(1, 0, 5), 158, 141, 1);
+    align-items: center;
+    padding: 30px;
+    margin: 10px;
+}
+
+li{
+    padding: 20px;
+}
+
+a{
+    color: #FFF;
+    text-decoration: none;
+}
+
+.push{
+    margin-left: auto;
+}
+
+/*https://paulund.co.uk/how-to-create-shiny-css-buttons*/
+/***********************************************************************
+ *  Green Background
+ **********************************************************************/
+.green{
+    background-color: rgb(152, 33, 152);
+}
+
+
+/***********************************************************************
+ *  Yellow Background
+ **********************************************************************/
+.yellow{
+    background-color: #d42be4;
+}
+
+/***********************************************************************
+ *  Blue Background
+ **********************************************************************/
+.blue{
+    background-color: rgb(231, 122, 231);
+}
+
+footer{
+    text-align: center;
+}
